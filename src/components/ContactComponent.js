@@ -1,6 +1,6 @@
 import React from "react";
 import { Breadcrumb, BreadcrumbItem } from "reactstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Contact(props) {
   return (
@@ -50,11 +50,7 @@ function Contact(props) {
             >
               <i className="fa fa-phone"></i> Call
             </a>
-            <a 
-              role="button"
-              className="btn btn-info"
-              href=" "
-             >
+            <a role="button" className="btn btn-info" href=" ">
               <i className="fa fa-skype"></i> Skype
             </a>
             <a
